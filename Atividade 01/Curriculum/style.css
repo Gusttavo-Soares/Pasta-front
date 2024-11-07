@@ -1,0 +1,11 @@
+img{
+    height: 150px;
+    display: flex;
+    margin: auto;
+}
+body{background-color: black;
+color: white;
+}
+h2{text-align: center;
+font-size: 35px;}
+h1{text-align: center;}

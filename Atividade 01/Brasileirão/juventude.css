@@ -1,0 +1,12 @@
+
+body{ background-image: url(./imagens/juventudefundo.png);
+    color: rgb(0, 0, 0);
+    text-shadow:1px 1px  3px rgb(255, 255, 255);}
+    img{
+        height: 70px;
+        display: flex;
+        margin: auto;
+    }
+    h1{ text-align: center;}
+   
+    

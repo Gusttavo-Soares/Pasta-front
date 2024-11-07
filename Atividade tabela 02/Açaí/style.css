@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "pop cast";
+    src: url(./Popcat.otf);
+}
+@font-face {
+    font-family: "happy spring";
+    src: url(./Happy\ Spring.otf);
+}
+
+body{background-color: rgb(111, 0, 255);}
+caption{font-size: 60px;
+font-family: "pop cast";}
+tbody{background-color: green;}
+
+tfoot{ font-family:"happy spring";
+font-size: 25px;}
+
+img{display: flex;
+    margin: auto;}

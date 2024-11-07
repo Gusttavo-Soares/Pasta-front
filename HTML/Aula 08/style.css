@@ -1,0 +1,24 @@
+:root{
+    --botao-par: blue;
+    --botao-impar: red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+
+.cor-vermelha{
+    background-color: var(--botao-impar);
+}
+.cor-azul{
+    background-color: var(--botao-par);
+}

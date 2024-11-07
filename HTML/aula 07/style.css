@@ -1,0 +1,133 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.cores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.5rem;
+    height: 15rem;
+    width: 15rem;
+    background-image: linear-gradient( 45deg, #F2B05E,#F2762E 10%,#F25050 , #D9328E, #983BBF );
+}
+.detalhes{
+    width: 80%;
+    height: 80%;
+    border-radius: 2.5rem;
+    border: 1rem solid white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detalhes::before{
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: white;
+    /* border: .7rem solid white;*/
+    top: 1rem;
+    right: 1rem; 
+}
+.detalhes::after{
+    border-radius: 50%;
+    content: '';
+    height: 5rem;
+    width: 5rem;
+    border: 1rem solid white;
+    position: absolute;
+}
+
+/*=========================================================================================*/
+/* body > p{
+    font-size: 10em;
+}
+.texto{
+    font-size: 16px;
+}
+.texto > p{
+    font-size: 10rem;
+} */
+/*=========================================================================================*/
+/* html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.quadrado{
+    width: 15rem;
+    height: 15rem;
+    background-color: blueviolet;
+    transition: .1s;
+} */
+/* .quadrado:hover{ */
+    /* background-color: brown;
+    border-radius: 50%;
+    scale: 1.5; */
+    /* box-shadow: 0 0 15px orange; }*/
+/*=========================================================================================*/
+/* a{
+    background-color: orange;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    font-weight: 900;
+    color: white;
+    transition: .8s;
+}
+a:hover{
+    background-color: #ffffff;
+    color: blueviolet;
+    margin-left: -18.7rem;
+}
+.circulo{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: deeppink;
+    position: relative;
+}
+.circulo::before{
+    content: '';
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 50%;
+    position:absolute;
+    top: 1.5rem;
+    left: -1rem;
+}
+.circulo::after{
+    content: '';
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: #00c403;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+} */

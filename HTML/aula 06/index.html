@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .div{
+             background-color: blueviolet;
+             height: 50px; /*extensão de altura */
+             width: 50px;  /*extensão de largura */
+             /* margin: 0 15px; margens laterias, superior e inferior */
+             /* display:inline-block; */
+        }
+        #segunda{
+            background-color: red;
+        }
+        .iguais{
+            background-color: greenyellow;
+            border-radius: 50%; 
+        }
+        .borda-divisao{
+            border: 5px solid orangered;
+        }
+        #pai{
+            display: flex; /* Se aplica as tags principais(pai) para que as "filhas" obedeçam*/
+            height: 450px;
+            background-color: black;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            justify-content: space-around;
+            align-items: center;
+            /* gap: 15px; */
+
+        }  
+    </style>
+</head>
+<body>
+            <div id="pai">
+                <div class="iguais borda-divisao div"></div>
+                <div id="segunda" class="iguais div"></div>
+                <div class="iguais div"></div>
+                <div class="borda-divisao div"></div>
+            </div>
+</body>
+</html>

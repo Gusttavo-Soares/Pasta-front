@@ -1,0 +1,12 @@
+
+body{ background-image: url(./imagens/fortalezafundo.png);
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px  4px rgb(0, 0, 0);}
+    img{
+        height: 70px;
+        display: flex;
+        margin: auto;
+    }
+    h1{ text-align: center;}
+   
+    

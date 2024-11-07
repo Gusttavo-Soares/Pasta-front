@@ -1,0 +1,96 @@
+*{
+    padding: 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{ 
+    padding: 0px 250px;
+}
+p{
+    font-family: serif;
+}
+#navegacao{
+    display: flex;
+    justify-content: end;
+    background-color: #e8e6e6 ;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+.menu-list>li{
+    padding: 5px 10px;
+}
+.a1{
+    text-decoration-line: none;
+    color: black;
+    font-weight: 650;
+}
+#images{
+    display: flex;
+    padding: 0px;
+  
+}
+.imgs{
+    display: flex;
+    padding: 0px;
+    height: 343px;
+}
+#h1{
+display: flex;
+background-color:  #e8e6e6 ;
+padding: 0px 10px 0px 40px;
+}
+#p1{
+    font-size: 18px;
+}
+#titulos{
+    display: flex;
+    background-color: black;
+    height:40px;
+    justify-content: space-between;
+}
+.h2{
+    color: white;
+}
+#sev{
+    padding: 0px 10px;
+}
+#ag{
+    padding-right: 260px;
+}
+#conteudo{
+    display: flex;
+    background-color:#e8e6e6 ;
+    padding: 0px 5px 50px 5px;
+}
+.larg{
+    padding: 0px 5px;
+}
+#mapa{
+    list-style: none;
+}
+p{
+    margin: 0px 0px 10px 0px;
+}
+#mapa2{
+    background-color: white;
+    padding: 0px 20px;
+}
+#corpo{
+    padding: 0px 40px;
+}
+#mapa > .li > a{
+    color: black;
+    text-decoration-line: none;
+}
+.li{
+    padding: 5px;
+}
+#rodape{
+    background-color: black;
+    color: white;
+    height: 100px
+}

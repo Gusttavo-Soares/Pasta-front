@@ -1,0 +1,8 @@
+h1{ text-align: center;}
+h2{text-align: center;}
+body{ text-align: center;
+background-image: url(./imagens/harrypotter.jfif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-blend-mode:darken}

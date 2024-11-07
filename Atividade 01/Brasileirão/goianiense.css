@@ -1,0 +1,12 @@
+
+body{ background-image: url(./imagens/atleticogofundo.png);
+    color: rgb(255, 255, 255);
+    }
+    img{
+        height: 70px;
+        display: flex;
+        margin: auto;
+    }
+    h1{ text-align: center;}
+   
+    

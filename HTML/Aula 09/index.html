@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <fieldset>
+        <legend> Dados pessoais</legend>    
+            <label for="nome">Nome:</label>
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Nome completo"
+                maxlength="7"
+                required
+                autocomplete="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Exemplo@gmail.com" required autocomplete="email" name="email">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" maxlength="12" minlength="8" name="senha">
+            
+            <label for="senha2">Repita a senha:</label>
+            <input type="password" id="senha2">
+            <br><br>
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" id="nascimento" name="datanascimento">
+            <label for="filhos">Quantidade de filhos:</label>
+            <input type="number" id="filhos" min="0" max="20" width="50" name="filhos">
+            <br><br>
+            <label for="foto">Foto de perfil:</label>
+            <input type="file" id="foto" accept=".png, .jpg ,.pdf" name="fotoperfil">
+            
+            <label for="cor">Cor favorita:</label>
+            <input type="color" id="cor" value="#00ffff" name="cor" >
+            <br><br>
+            <label for="objetivo">Objetivo:</label>
+            <textarea type="text" id="objetivo" rows="3" cols="25" maxlength="500" spellcheck = "True" name="objetivo"> </textarea>
+            
+            <input type="range">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="logradouro">Logradouro:</label>
+            <select name="" id="logradouro" name="logradouro">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="Bairro"> Bairro</option>
+                <option value="Quadra"> Quadra</option>
+                <option value="Sítio"> Sítio</option>
+                <option value="Rua"> Rua</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Experiência</legend>
+            <label for="gogoboy"><input type="checkbox" value="Go go Boy" id="gogoboy" name="prof"> Gogo Boy </label>
+            <br>
+            <label for="Garoto de programa"><input type="checkbox" value="garoto de programa" id="Garoto de programa" name="prof"> Garoto de programa </label>
+            <br>
+            <label for="motoboy"><input type="checkbox" value="motoboy" id="motoboy" name="prof"> Motoboy</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <label for="termos">  <input type="checkbox" id="termos"> Você aceita os termos e condições do site </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Estado civil</legend>
+            <label for="estado1"> <input type="radio" value="solteiro" name="estado" id="estado1">Solteiro</label> <br>
+            <label for="estado2"> <input type="radio" value="Casado" name="estado" id="estado2">Casado</label> <br>
+            <label for="estado3"> <input type="radio" value="Divorciado" name="estado" id="estado3">Divorciado</label> <br>
+            <label for="estado4"> <input type="radio" value="Viúvo" name="estado" id="estado4">Viúvo</label>
+        </fieldset>
+        <!-- <input type="submit" value="Enviar"> --> 
+        <button> Cadastrar</button>
+
+    </form>
+</body>
+</html>

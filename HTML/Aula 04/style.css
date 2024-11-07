@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+@font-face {font-family: "capture it";
+            src: url(./Capture\ it.ttf);}
+
+h1{  font-family: "Kablammo", "fantasy";
+     text-align: center;  
+     font-size: 60px; }
+
+h2{ font-family: monospace;
+    color: blue;
+    text-align: center;}
+
+p{  font-family: "Capture it";
+    color: olive;
+    text-align: justify;
+    line-height: 30px;
+    /* letter-spacing: 10px;*/
+    /* word-spacing: 20px; */
+    text-indent: 50px;}
+
+h3{ font-family: cursive;
+    text-transform:uppercase ;}
+    
+/* Comentario css */
+
+h4{ font-family: fantasy;
+    font-size: 50px;
+    text-shadow:5px 5px 5px red;
+    color: aqua;}
+
+a{  text-decoration-line: underline;
+    text-decoration-color:red;
+    color: rgb(255, 0, 255);
+    text-decoration-style: dotted;}
+
+body{ background-image: url(./fut.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-color: yellowgreen;
+      background-blend-mode:darken;}

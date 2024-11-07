@@ -1,0 +1,85 @@
+# Teste número 1
+## T2
+### T3
+#### T4
+##### T5
+###### T6
+
+Aqui se descorre o paragrafo 
+
+## Marcações de destaque
+
+**Negrito** ou __Negrito__
+ 
+ _italico_
+
+ ***Negrilico***
+
+ ~~taxado~~
+
+ ## Listas não ordenadas 
+
+ - Item 1   
+    - Subitem 1 
+       - Subitem do subitem    
+     - Subitem 2
+
+ - Item 2
+ - Item 3
+
+## Lista Ordenadas
+
+1. Priemiro item
+    1. Sub intem 1
+    1. Sub item 2
+       1. Sub item do sub item 2
+       1. Sub item do subitem 2.1
+1. Segundo item 
+1. Terceiro item
+1. Quarto item 
+1. Quinto item 
+
+## Tabelas
+
+| **N°** | **Nome** | **Graduação**|
+|:-:|:-|-:|
+|1 | _Enzo_ | _Recruta_ | 
+|2 | _Bisonho_ | _Recruta_ |
+|3 | _Steve_ | _Soldado_ | 
+
+## Criando Links/ancoras
+
+### Link Externo
+[Clique aqui](https://www.sistemafibra.org.br/senai/) 
+
+### Link Interno
+[Clique aqui](./Links/Redirecinamento.md)
+
+## Imagens
+
+### Imagens externas
+![Logo do senai](https://logodownload.org/wp-content/uploads/2019/08/senai-logo-1.png   )
+
+### Imagens internas 
+![Relíquias da morte](../Imagens/Harry%20potter.jpg)
+
+## Codigos
+
+### inline
+Isso é o exemplo de um codigo
+`console.log('Isso é um código javascript')`  esta instrução faz o print de uma inf 
+
+### Em bloco
+
+```javascript
+ nome = 'Luciano'
+
+console.log(nome)
+```
+
+## Contatos 
+
+
+
+[![Icone instagram](../Imagens/icons8-instagram-48.png)](https://instagram.com/Gusttavosoares._)
+

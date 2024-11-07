@@ -1,0 +1,39 @@
+@font-face {font-family:"barbie" ;
+            src: url(./Barbie.otf);}
+
+h1{font-family: "barbie";
+    text-align: center;
+    font-size: 100px;
+    color: deeppink;}
+
+h2{font-family: "barbie";
+    text-align: center;
+    font-size: 40px;
+    color: deeppink;}
+
+caption{font-family: "barbie";
+        font-size: 35px;}
+
+tfoot{ 
+    color: rgb(0, 0, 0);}
+
+    th, td {
+        padding: 8px;
+        text-align: center;}
+img{
+    display: flex;
+    margin: auto;
+}
+
+body{background-image: url(./img/fundobarbie.png);
+    background-color: pink}
+table {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da viewport */
+    margin: 0;
+    border-collapse: collapse; } 
+    
+
+
