@@ -10,20 +10,20 @@
 // console.log(nome3)
 
 //Tipo de dados
-//Texto = string
-const texto = 'Eu sou um texto'
-//numerico = number 
-const numero_inteiro = 30
-const numero_flutuante = 18.5
-//logica = boolean
-const ligado = false //true
-//indefinido = undefined   
-//nulo = null 
-const presidente = null
-//não é um número = NaN (not a number)
+// //Texto = string
+// const texto = 'Eu sou um texto'
+// //numerico = number 
+// const numero_inteiro = 30
+// const numero_flutuante = 18.5
+// //logica = boolean
+// const ligado = false //true
+// //indefinido = undefined   
+// //nulo = null 
+// const presidente = null
+// //não é um número = NaN (not a number)
 
-//lista de dados = array  
-const frutas = ['maça' , 'banana' , 'uva' , 'goiaba']
+// //lista de dados = array  
+// const frutas = ['maça' , 'banana' , 'uva' , 'goiaba']
 
 // console.log(typeof (texto))
 // console.log(typeof (numero_inteiro))
@@ -79,12 +79,89 @@ const frutas = ['maça' , 'banana' , 'uva' , 'goiaba']
 //     alert('Você não pode assistir o filme')
 // }
 
-var atividade = true 
-var nota_atividade = 8.2
+// var atividade = true 
+// var nota_atividade = 3
 
-if ((atividade == true) && (nota_atividade >= 5)){
-    console.log('pode ir embora')
-}
-else(
-    console.log('não pode ir embora')
-)
+// if ((atividade == true) && (nota_atividade >= 5)){
+//     console.log('pode ir embora')
+// }
+// else(
+//     console.log('não pode ir embora')
+// )
+
+// const voto = parseInt(prompt('Informe seu candidato. 13 ou 22'))
+// // if(voto == 13){
+// //     console.log('Você fez o L')
+// // }
+// // else if (voto == 22){
+// //     console.log( 'Você fez arminha')
+// // }
+// // else{
+// //     console.log('Voto inválido')
+// // }
+// switch(voto){
+//     case 13:
+//         console.log('Fez o L')
+//         break
+//     case 22: 
+//         console.log('Fez arminha') 
+//     default: 
+//         console.log ('Voto inválido')
+// }
+
+
+// let maior = 0
+
+// let numero = parseInt(prompt('Informe o número 1'))
+
+// if (numero > maior){
+//     maior = numero
+// }
+
+// numero = prompt('Informe o número 2')
+
+// if (numero > maior){
+//     maior = numero
+// }
+
+// numero = prompt('Informe o número 3')
+
+// if (numero > maior){
+//     maior = numero
+// }
+
+// numero = prompt('Informe o número 4')
+
+// if (numero > maior){
+//     maior = numero
+// }
+
+// console.log('O maior número foi' + maior)
+
+// let numero
+// let maior = 0
+// for (let i = 1; i <= 4; i++){
+//     numero = parseInt(prompt('Informe o número 1'))
+
+//     if (numero > maior){
+//         maior = numero
+//     }
+// }
+// console.log('O maior número foi '+ maior)
+
+// let contador = 0;
+// let limite = 4
+// let numero
+// let maior = 0
+
+// while(contador < limite){
+//     numero = parseInt(prompt('informe o número'))
+
+//     if ( numero > maior){
+//         maior = numero
+//     }
+//     contador = contador + 1
+//     // contador++
+// }
+
+// console.log('O maior numero foi'+ maior)
